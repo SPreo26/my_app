@@ -1,0 +1,10 @@
+<table>
+  <tr>
+    <% @accountz.each do |account| %>
+    <td> <%= "#{account[:first_name]}" %> </td>
+    <td> <%= "#{account[:last_name]}" %> </td>
+    <td> <%= "#{account[:email]}" %> </td>
+    <td> <%= "#{account[:account_num]}" %> </td>
+    <% end %>
+  </tr>
+</table>

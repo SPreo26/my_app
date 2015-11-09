@@ -1,0 +1,37 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #0012AF;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 0 0 40px #FF0000,
+               0 0 50px #0000FF;
+}
+
+h2 {
+
+  text-align: center;
+
+}
+
+h3 {
+  font-family: Copperplate, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   right: 1px;
+ }
+
+ table {
+    margin: auto;
+    border-style: double;
+ }
